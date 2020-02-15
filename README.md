@@ -68,7 +68,18 @@ $ git clone git@github.com:uscreen/mongo-issue.git
 $ cd ./mongo-issue && make start
 ```
 
-Packages get installed if needed, application will start (managed by pm2) and you will
+Packages get installed if needed, application will start (managed by pm2) and you will be able to send a basic GET request like:
+
+```sh
+$ curl -i http://127.0.0.1:3000/api/noop
+HTTP/1.1 200 OK
+content-type: application/json; charset=utf-8
+content-length: 48
+Date: Sat, 15 Feb 2020 12:48:20 GMT
+Connection: keep-alive
+
+{"noop":"Hello world","plugin":"Hello Universe"}
+```
 
 ## Usage
 
@@ -85,8 +96,6 @@ Configuration is read by dotenv from `app/.env` file and validated _[optional mo
 > the `.env` file should __never__ get pushed to repository. So adding secrets and credentials to `.env` can be considered a secure option bound to specific environments.
 
 ---
-
-## Roadmap
 
 ## Changelog
 
