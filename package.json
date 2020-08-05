@@ -31,7 +31,7 @@
   "dependencies": {
     "@uscreen.de/fastify-app": "^0.4.3",
     "env-schema": "^1.1.0",
-    "fastify": "^2.13.0",
+    "fastify": "^2.15.1",
     "fastify-mongodb": "^2.0.0",
     "fastify-plugin": "^1.6.1"
   },
