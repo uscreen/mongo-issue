@@ -19,7 +19,7 @@ server.register(app, config)
 /**
  * post-treatment
  */
-server.ready(err => {
+server.ready((err) => {
   if (err) throw err
   server.log.debug('server ready, routes are set:\n' + server.printRoutes())
 })

@@ -1,6 +1,6 @@
 'use strict'
 
-module.exports = async fastify => {
+module.exports = async (fastify) => {
   const collection = fastify.mongo.db.collection('issue')
 
   // breaks
