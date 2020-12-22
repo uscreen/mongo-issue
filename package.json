@@ -16,7 +16,7 @@
     "@uscreen.de/eslint-config-prettystandard-node": "^0.1.2",
     "lint-staged": "^10.5.3",
     "pino-pretty": "^4.3.0",
-    "pm2": "^4.5.0",
+    "pm2": "^4.5.1",
     "prettier": "^2.2.1",
     "tap": "^14.11.0",
     "yorkie": "^2.0.0"
@@ -24,7 +24,7 @@
   "dependencies": {
     "@uscreen.de/fastify-app": "^0.7.2",
     "env-schema": "^2.0.1",
-    "fastify": "^3.9.1",
+    "fastify": "^3.9.2",
     "fastify-mongodb": "^2.0.0",
     "fastify-plugin": "^3.0.0"
   },
