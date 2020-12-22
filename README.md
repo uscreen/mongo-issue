@@ -58,7 +58,7 @@ Keeping basic default instructions below. For reproduction no config changes are
 
 ## Prerequisits
 
-* node 12.x / yarn 1.21
+* node 14.x / yarn 1.22.x
 * mongodb running on localhost
 
 ## Install
