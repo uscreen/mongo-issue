@@ -18,7 +18,7 @@ function build(t, ConfigOverwrite = {}) {
   app.register(fp(App), { ...Config, ...ConfigOverwrite })
 
   // tear down our app after we are done
-  t.tearDown(app.close.bind(app))
+  t.teardown(app.close.bind(app))
 
   return app
 }
